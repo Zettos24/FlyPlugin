@@ -1,0 +1,11 @@
+name: FlyPlugin
+version: ${project.version}
+main: de.zettos.flyplugin.FlyPlugin
+api-version: 1.17
+authors: [ Zettos ]
+description: A FlyPlugin
+commands:
+  fly:
+    usage: /<command>
+    description: Fly like a Bird
+    permission: fly.use
