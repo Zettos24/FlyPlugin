@@ -39,7 +39,7 @@ public final class FlyPlugin extends JavaPlugin implements Core{
     public void onEnable() {
         Bukkit.getConsoleSender().sendMessage(pr+"Plugin erfolgreich §aAktiviert!");
         Objects.requireNonNull(getCommand("fly")).setExecutor(this);
-
+        System.out.println("DEBUG");
     }
 
     @Override
